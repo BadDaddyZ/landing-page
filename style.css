@@ -2,4 +2,35 @@
 
 .header {
     background: #1f2937;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.right-links {
+    font-size: 18px;
+}
+
+img {
+    width: 200px;
+    height: auto;
 }
