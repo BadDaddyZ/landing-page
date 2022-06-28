@@ -9,6 +9,7 @@ body {
     padding-right: 120px;
     display: flex;    
     justify-content: space-between;
+    padding-top: 20px;
 }
 
 .logo {
@@ -78,15 +79,41 @@ button {
     padding: 120px;
     padding-top: 60px;
     padding-bottom: 60px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.middletitle {
+    font-size: 36px;
+    font-weight: 800;
+    padding-bottom: 30px;
 }
 
 .container {
     display: flex;
+    gap: 40px;
 }
 
 .info-image {
-    width: 100px;
-    height: auto;
+    width: 150px;
+    height: 150px;
     border-radius: 4px;
 }
 
+.text {
+    width: 150px;
+    text-align: center;
+}
+
+.bottom-middle {
+    display: flex;
+    flex-direction: column;
+    padding: 120px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background: #e5e7eb;
+}
