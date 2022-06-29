@@ -14,11 +14,16 @@ body {
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 10px;
     color: #f9faf8;
-    
+    align-: center;
 }
 
+.logo-image {
+    width: 24px;
+    height: auto;
+    border-radius: 30px;
+}
 ul {
     list-style-type: none;
     display: flex;
