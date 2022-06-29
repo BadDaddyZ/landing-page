@@ -2,6 +2,7 @@
 
 body {
     margin: 0;
+    font-family: sans-serif, serif;
 }
 .header {
     background: #1f2937;
@@ -64,7 +65,7 @@ a {
     font-size: 18px;
 }
 
-button {
+.sign-top {
     border: none;
     padding: 4px;
     background: #3882f6;
@@ -133,4 +134,54 @@ button {
     color: #1f2937;
     font-size:medium;
     font-weight: bold;
+}
+
+.bottom {
+    display: flex;
+    background-color: #3882f6;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-left: 120px;
+    padding-right: 120px;
+    min-height: 100px;
+    border-radius: 4px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-title {
+    font-size: 20px;
+    color: #f9faf8;
+    font-weight: 800;
+}
+
+.action {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-top: 3px;
+}
+.sign-bottom {
+    border-style: solid;
+    border-color: #f9faf8;
+    padding: 2px;
+    background: #3882f6;
+    color: white;
+    border-radius: 4px;
+    width: 100px;
+}
+
+footer {
+    background: #1f2937;
+    padding-left: 120px;
+    padding-right: 120px;
+    display: flex;
+    flex-direction: ;    
+    justify-content: center;
+    color: #E5E7EB;
+}
+
+p {
+    padding: 2px;
 }
